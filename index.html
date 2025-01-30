@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  /* whatspp icons */
+
+.whatsapp{
+    position: fixed;
+    z-index: 1000;
+ bottom: 20px;
+    
+    right: -20px;
+   
+    width: 60px;
+    transition: 2s ease-in-out;
+  animation: shake 0.5s;
+
+
+  animation-iteration-count: infinite;}
+.whatsapp img{
+    width: 100%;
+    height: 100%;
+}
+
+/* slider icons start */
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  z-index: 110000;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: linear-gradient(rgb(27, 110, 204),rgb(228, 8, 154),rgb(195, 216, 11));
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/* slider ions end */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}  
+
+/*  our value and motto */
+
+.ourvalueandmotoheading{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ font-weight: bolder;
+ 
+}
+.ourvalueandmoto{
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.ourvaluechildheading{
+  width: 350px ;
+  /* background-color: rgba(159, 216, 238, 0.712);  */
+
+  background-color: red;
+  color: white;
+
+  border-radius: 5px;
+ 
+  padding: 10px;
+}
+.ourvaluechildheading h3{
+ font-weight: bolder;
+}
+
+.ourvaluechild{
+  display: flex;
+
+}
+.ourvaluechildimg{
+  background-color: #343855;
+  width: 50px;
+  color: white;
+  height: 50px;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ font-weight: bold;
+
+}
+.ourvalueandmoto{
+  margin-bottom: 10px;
+}
+
+.qqq{
+  /* background-image: url(./pexels-padrinan-255379.jpg); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+/* our child start */
+
+.ourclassicheading{
+  width: 100%;
+  text-align: center;
+  background-color: #343855;
+
+  color: white;
+  padding: 10px;
+}
+
+.ourclassicchild{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* background-color: #9bc8eb; */
+background-color: red;
+color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  /* padding: 10px; */
+}
+.ourclassicchild h3,p{
+  padding: 0px 10px;
+}
+.ourclassicchildimg img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+.ourchildbutton{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.ourchildbutton button{
+  padding: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: none;
+  background-color:#b0b02c ;
+}
+
+.ourclassicparent{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  margin-bottom: 20px;
+  
+  margin-top: 20px;
+}
+.ourclassic{
+  /* background-image: url(./face.jpeg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* our cihld end */
+
+.kidspalyschoolbanner {
+    margin-top: 25px;
+    padding-top: 15px;
+    width: 100%;
+    min-height: 11vh;
+    height: auto;
+    margin-bottom: 0px;
+}
+/* testmonial end */
+.kidsplay {
+    height:auto ;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.memorymoment1{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     
+
+    }
+    .memorymoment1 img{
+       border-radius: 2%;
+
+    }
+    .memeorychild {
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    @media (max-width:768px) {
+        .memeorychild {
+            width: 90%;
+        }
+        .memeorychild img {
+            width: 100%;
+        }
+    }
+
+    /*  next */
+
+    .memeorychild img{
+      width: 250px;
+      height: 250px;
+    }
+
+    /* new testimonial start */
+
+.ourvalueandmoto {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    /* new testimonial end */
+
+    .ourvalueandmotoheading{
+      background-color:#b0b02c;
+    }
+
+
+
+
+.kidschild {
+    display: block;
+    width: 400px;
+    height: 320px;
+}
+
+.oourgallery{
+  padding: 10px;
+  background-color: #b0b02c;
+}
+@media (max-width:770px) {
+
+  .memeorychild {
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.memeorychild img{
+  width: 100%;
+  margin: auto;
+
+}
+}
+@media (max-width:400px) {
+  .ourvaluechildheading {
+    width: 90%;
+    background-color: rgba(159, 216, 238, 0.712);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 3%
+}
+.ourvaluechild {
+    display: flex;
+    
+}
+.ourvaluechildimg {
+display: none;
+margin: auto;
+}
+}
+
+/* new testimonial */
+
+.testimonial-slider {
+  width: 100%;
+  max-width: 85%; /* Adjust based on desired width */
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  height: auto;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  transition: transform 1s ease-in-out;
+}
+
+.testimonial {
+  padding: 20px;
+  box-sizing: border-box;
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+/* new testimoninal end */
+
+.jkkkk{
+  
+  height: auto;
+  padding-bottom: 50px;
+}
+.newheading{
+  padding: 7px;
+}
+.kidsplay {
+    min-height: 50vh;
+
+}
+
+@media (max-width: 400px) {
+    .ourvaluechildheading {
+        width: 90%;
+        background-color: red;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 3%;
+    }
+}
+
+/* @media (max-width: 770px) {
+    .memeorychild img {
+        width: 100%;
+        margin: auto;
+    }
+} */
+
+.memeorychild img {
+    width: 250px;
+    height: 250px;
+}
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 770px) {
+    .memeorychild {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .memeorychild img {
+        width: 400px;
+    }
+
+
+}
+
+@media (max-width: 460px) {
+    .memeorychild {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .memeorychild img {
+        width: 300px;
+    }
+
+
+}
+
+.testimonial{
+background-color: #11b211;
+color: white;
+}
+
+.logo-icons img{
+  width: 80px;
+}
+
+@media (max-width:1000px) {
+  .logo-icons img{
+  width: 60px;
+}
+}
+
+@media (max-width:400px) {
+  .logo-icons img{
+  width: 40px;
+}
+}
+
+@media (max-width:450px) {
+  .ourclassicchild {
+    display: flex
+;
+    flex-direction: column;
+    width: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* background-color: #9bc8eb; */
+    background-color: red;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* padding: 10px; */
+}
+}
+
+
+@media (max-width:576px) {
+  .ourclassicchild {
+    display: flex
+;
+    flex-direction: column;
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* background-color: #9bc8eb; */
+    background-color: red;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* padding: 10px; */
+}
+}
+
+@media (max-width:500px) {
+  .ourvaluechildimg {
+  display: none;
+}
+}
+
+.footer-top {
+  min-height: 35vh;
+  }
+</style>
+</head>
+<body>
+
+  <div class="icon-bar">
+    <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="https://www.instagram.com/" class="twitter"><i class="fa-brands fa-square-instagram"></i></a> 
+    <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+
+    <div class="frontsub">
+
+      <div class="frontsub1 frontsub11"><h4>Your School Name Write In This</h2></div>
+
+      <div class="frontsub1">
+        <div class="subheadingchild icons">
+          <a href="tel:+8700181661"><i class="fa-solid fa-phone" >  011 - 00000000 </i></a> &nbsp;
+          <i class="fa-solid fa-location-dot">   Uttam Nagar, New Delhi.</i>
+      </div>
+
+      </div>
+
+    </div>
+
+
+     <!-- navbar start -->
+    
+    
+     <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid mx-2 text-center ">
+            <a class="navbar-brand logo-icons" href="./logo2.png" class="bg-white logo-icons"><img src="./logo2.png" alt="logo" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About.html">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facility.html"> Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Infrastructure.html">Infrastructure</a>
+                    </li>                    <li class="nav-item">
+                        <a class="nav-link" href="#memory.html">Memorable Moments </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#OurProgramme.html">Our Programme</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact us.html">Contact Us </a>
+                    </li>
+                  
+                </ul>
+             
+            </div>
+        </div>
+    </nav>
+
+     <!-- navbar end -->
+
+      <!-- start slider -->
+
+      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./new banner/new school 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new schhool2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new school banner 3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new school banner 4.png" />
+          </div>
+      
+          
+        
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div thumbsSlider="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./new banner/new school 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new schhool2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new school banner 3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./new banner/new school banner 4.png" />
+          </div>
+     
+        </div>
+      </div>
+      <div class="whatsapp">
+        <a href="//wa.me/">
+        <img src="./whatsaapp.png" alt="" ></a>
+      </div>
+
+      <!-- slider end -->
+
+    </div>
+
+    <!-- home page end -->
+
+    <!-- our  value and moto -->
+
+    <div class="qqq">
+
+    <div class="ourvalueandmotoheading pt-3 pb-3 mt-4"> <b> <h1> Our Values and Motto</h1></b>  </div>
+
+
+    <div class="ourvalueandmoto">
+
+      <div class="ourvaluechild">
+        <div class="ourvaluechildimg">01</div>
+        <div class="ourvaluechildheading">
+          <h3>Vision & Mission</h3>
+          <p>Provide UK-concept international curriculum to even the remotest parts of India at an affordable cost. Align with Sarva Shiksha Abhyan and Beti Bachao Beti Padhao to empower</p>
+        </div>
+      </div>
+
+      <div class="ourvaluechild">
+        <div class="ourvaluechildimg">02</div>
+        <div class="ourvaluechildheading">
+          <h3>Educational Philosophy</h3>
+          <p>Use various teaching methods (oral, written, digital, activity-based) to generate interest in learning.</p>
+        </div>
+      </div>
+
+      <div class="ourvaluechild">
+        <div class="ourvaluechildimg">03</div>
+        <div class="ourvaluechildheading">
+          <h3>Curriculum</h3>
+          <p>Adapts British National Curriculum Early Years Foundation Stage to Indian syllabus standards. Emphasizes practical, fun learning with the latest technology.</p>
+        </div>
+      </div>
+
+      <div class="ourvaluechild">
+        <div class="ourvaluechildimg">04</div>
+        <div class="ourvaluechildheading">
+          <h3>Facilities</h3>
+          <p>Interactive play area, modern teaching aids, Montessori equipment, and non-toxic play materials.</p>
+        </div>
+      </div>
+
+      <div class="ourvaluechild">
+        <div class="ourvaluechildimg">05</div>
+        <div class="ourvaluechildheading">
+          <h3>Parental Involvement</h3>
+          <p>Conducts monthly parentteacher meetings to actively involve parents in their child's early education development.</p>
+        </div>
+      </div>
+
+      <div class="ourvaluechild ">
+        <div class="ourvaluechildimg">06</div>
+        <div class="ourvaluechildheading">
+          <h3>Safety & Security</h3>
+          <p>Implements biometric attendance, CCTV surveillance, and follows the Ashoka Childcare Policy to ensure non-discrimination.</p>
+        </div>
+      </div>
+
+   
+
+    </div>
+
+  </div>
+
+  <!-- our classic -->
+
+  <div class="ourclassic">
+
+    <div class="ourclassicheading"><h1><b>Our Classes</b></h1></div>
+
+    <div class="ourclassicparent">
+
+      <div class="ourclassicchild">
+        <div class="ourclassicchildimg"><img src="./new memory/Untitled-22.png" alt=""></div>
+        <h3>Play Group</h3>
+        <p>Introduction to social interaction, basic routines, and play-based learning for toddlers, fostering early social and cognitive skills.</p>
+        <hr>
+        <div class="ourchildbutton">
+          <div><h4><span>Age:</span>2-3 Years</div></h3>
+          <button>Admission Query</button>
+        </div>
+      </div>
+
+      <div class="ourclassicchild">
+        <div class="ourclassicchildimg"><img src="./new memory/Untitled-3.png" alt=""></div>
+        <h3>Nursery</h3>
+        <p>Building foundational skills through play, structured activities, and exploration, focusing on language, numbers, and basic concepts.</p>
+        <hr>
+        <div class="ourchildbutton">
+          <div><h4><span>Age:</span>3-4 Years</div></h3>
+          <button>Admission Query</button>
+        </div>
+      </div>
+
+      <div class="ourclassicchild">
+        <div class="ourclassicchildimg"><img src="./new memory/Untitled-4.png" alt=""></div>
+        <h3>Junior KG</h3>
+        <p>Developing literacy, numeracy, and social skills through structured activities, preparing children for formal education.</p>
+        <hr>
+        <div class="ourchildbutton">
+          <div><h4><span>Age:</span>4-5 Years</div></h3>
+          <button>Admission Query</button>
+        </div>
+      </div>
+
+      <div class="ourclassicchild">
+        <div class="ourclassicchildimg"><img src="./new memory/Untitled-5.png" alt=""></div>
+        <h3>Senior KG</h3>
+        <p>Advancing skills in reading, writing, mathematics, and social interaction, laying the groundwork for primary schooling
+
+        </p>
+        <hr>
+        <div class="ourchildbutton">
+          <div><h4><span>Age:</span>5-6 Years</div></h3>
+          <button>Admission Query</button>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <!-- testimonial  -->
+  
+  <div class="newheading w-100 text-center bg-dark text-white"><h2>Parents Review</h2> </div>
+  
+  <div class="jkkkk bg-dark w-100 ">
+
+  <div class="testimonial-slider">
+    <div class="testimonial-box">
+      <div class="testimonial">
+        <p><strong><h4>Jitesh Kaushik</h4></strong></p>
+        <p>The school fosters a positive, inclusive atmosphere where children feel safe, respected, and encouraged to be their best selves. The lessons are engaging, and the teaching methods are innovative, making learning both fun and meaningful. My child looks forward to going to school every day, which speaks volumes about the school's ability to make education exciting!</p>
+      </div>
+      <div class="testimonial">
+        <p><strong><h4>Prakash</h4></strong></p>
+        <p>The teachers at My Learning Paradise Play School & Day Care are amazing. They really take the time to understand each child's needs...</p>
+      </div>
+      <div class="testimonial">
+        <p><strong><h4>Ashutosh Kumar Nanda</h4></strong></p>
+        <p>My Learning Paradise Play School & Day Care offers incredible support for both academic and emotional growth...</p>
+      </div>
+      <div class="testimonial">
+        <p><strong><h4>Pankaj Singh</h4></strong></p>
+        <p>The community at My Learning Paradise Play School & Day Care is supportive, caring, and truly makes a difference in my child’s life...</p>
+      </div>
+      <div class="testimonial">
+        <p><strong><h4>Punam Kumari</h4></strong></p>
+        <p>My Learning Paradise Play School & Day Care fosters an environment where students feel empowered to take ownership of their learning...</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- oldone -->
+
+<div class="kidspalyschoolbanner">
+  <div class="kidspalyschoolbanner1">
+    <h1 style="color:#343855;"><b>Best Facilities For Kids
+
+  </div>
+
+</div>
+
+  <!-- kida play school banner end-->
+
+  <!-- kidsplay start -->
+
+  <div class="kidsplay">
+
+    <div class="kidschild">
+
+      <div class="kidschildgrand hoverElement" >
+        <i class="fa-solid fa-person hiddenElement" style="color:#f1e108;" ></i>
+        <div class="kidschildgrand1">
+               <h1 style="color: #11b211;">Expert Teachers</h1>
+               <h6>Our Teachers are Energetic and wise, knowledgeable and prepared, creative and resourceful, kind and motivated.</h6>
+        </div>
+      </div>
+
+        <div class="kidschildgrand hoverElement" >
+        <i class="fa-solid fa-pen-nib hiddenElement" style="color: #1014e5;" ></i>
+        <div class="kidschildgrand1">
+               <h1 style="color: #f10606;">Multimedia Class</h1>
+               <h6>Using this very broad definition of multimedia, multimedia in the classroom.</h6>
+        </div>
+      </div>
+
+    
+
+   
+
+    </div>
+    <div class="kidschild"><img src="./new memory/pngwing.com (3).png" alt=""></div>
+
+
+    <div class="kidschild">
+
+      <div class="kidschildgrand hoverElement" >
+        <i class="fa-solid fa-house hiddenElement" style="color:#f10606;" ></i>
+        <div class="kidschildgrand1">
+               <h1 style="color: #1014e5;">Fun</h1>
+               <h6>Love is the foundation of our school. We nurture a child’s love of learning by expanding his or her own imagination.</h6>
+        </div>
+      </div>
+
+        <div class="kidschildgrand hoverElement" >
+        <i class="fa-solid fa-location-dot hiddenElement" style="color: #11b211;" ></i>
+        <div class="kidschildgrand1">
+               <h1 style="color: #f10808;">
+                Music And Art Class</h1>
+               <h6>We provide music & art class for our kids.</h6>
+        </div>
+      </div>
+
+     
+
+
+    </div>
+
+  </div>
+
+  <!-- old one-->
+
+  <!-- our gallery start -->
+
+  <div class="oourgallery w-100 text-center "><h1 class="">Our Gallery</h1></div>
+
+  <div class="memorymoment">
+    <div class="memorymoment1">
+        <div class="memeorychild"><a href="./gallery/1.png"><img src="./gallery/1.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/2.png"><img src="./gallery/2.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/3.png"><img src="./gallery/3.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/4.png"><img src="./gallery/4.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/5.png"><img src="./gallery/5.png"></a></div>
+        <div class="memeorychild"><a href="./gallery/6.png"><img src="./gallery/6.png"></a></div>
+        <div class="memeorychild"><a href="./gallery/7.png"><img src="./gallery/7.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/8.png"><img src="./gallery/8.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/9.png"><img src="./gallery/9.png"></a></div>
+        <div class="memeorychild"><a href="./gallery/10.png"><img src="./gallery/10.png" alt="img not show"></a></div>
+        <div class="memeorychild"><a href="./gallery/11.png"><img src="./gallery/11.png" alt="img not show"></a></div>
+
+      <div class="memeorychild"><a href="./gallery/12.png"><img src="./gallery/12.png" alt="img not show"></a></div>
+    </div>
+</div>
+
+  <!-- our gallery end -->
+
+  <!-- 4box start -->
+
+  <div class="project200">
+
+    <div class="project2001">
+
+          <div class="project2002" style="background-color: #b0b02c; color: white;border-radius: 10px; "><i class="fa-solid bbb fa-graduation-cap"></i><br> <h1>50+ </h1><br><span>Total Students</span>  </div>
+
+          <div class="project2002" style="background-color: #343855;color: white;border-radius: 10px;"> <i class="fa-solid  bbb fa-school"></i><br> <h1>6+ </h1><br> <span> Class Rooms</span></div>
+
+          <div class="project2002" style="background-color: #b0b02c;color: white;border-radius: 10px;"> <i class="fa-solid bbb fa-bus"></i> <br><h1>Available </h1><br><span> Cab Facility</span> </div>
+
+          <div class="project2002 mb-4"  style="background-color: #343855; color: white;border-radius: 10px; " > <i class="fa-solid bbb fa-person"></i> <br><h1>10+ </h1><br><span>Total Staff</span> </div>
+    </div>
+
+</div>
+
+
+  <!-- 4 box end -->
+ 
+
+
+    <div class="map ">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d112073.51647419983!2d76.9665613925089!3d28.62084778490463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1738062595524!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-top ">
+          <div class="container  " >
+              <div class="row">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="footer-item">
+                          <h4 class="title tex"> <b>About Us</b></h4>
+                          <div class="footer-about">
+                              <p>Our goal is to respond to the call of creating the emerging leaders of tomorrow. We are committed to impacting a synergy of skills, knowledge, and values in our children to lend them their inner voice for the 21st century.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="footer-item">
+                          <h4 class="title text"> <b >Useful Links </b> </h4>
+                          <ul class="twitter-post">
+                              <li><a href="#index.html">Home</a></li>
+                              <li><a href="#About.html">About Us</a></li>
+                              <li><a href="#facility.html">Facilities</a></li>
+                              <li><a href="#memory.html">Memorable Moments</a></li>
+                              <li><a href="#contact us.html">Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="footer-item">
+                          <h4 class="title "><b>Information</b> </h4>
+                          <div class="footer-about">
+                              <ul>
+                                  <!-- <li><span><i class="fa fa-home text-white" aria-hidden="true"></i></span> -->
+                                 <p class="hhhh"><i class="fa fa-home text-white" aria-hidden="true"></i>  &nbsp;  &nbsp; Enter Your Address, Uttam Nagar, New Delhi, 110059</p>
+                                  </li>
+                                  <li><span><i class="fa fa-phone text-white" aria-hidden="true"></i></span>   011 - 00000</li>
+                                  <li><span><i class="fa-solid fa-envelope text-white"></i></span> @gmail.com</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="footerdescription">
+        <p class="text-white">© 2025 Your School Name Write In This </p>
+      </div>
+  </footer>
+  
+<!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+      autoplay: {
+        delay: 3000, // Time in milliseconds (3000ms = 3 seconds)
+        disableOnInteraction: false, // Keeps autoplay working after manual interaction
+      },
+    });
+  
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+      autoplay: {
+        delay: 3000, // Time in milliseconds (3000ms = 3 seconds)
+        disableOnInteraction: false, // Keeps autoplay working after manual interaction
+      },
+    });
+
+
+
+// testimonial js 
+
+let currentIndex = 0;
+const testimonials = document.querySelectorAll('.testimonial');
+const totalTestimonials = testimonials.length;
+
+function showTestimonial(index) {
+  // Remove the active class from all testimonials
+  testimonials.forEach(testimonial => testimonial.classList.remove('active'));
+
+  // Add the active class to the current testimonial
+  testimonials[index].classList.add('active');
+}
+
+function nextTestimonial() {
+  currentIndex = (currentIndex + 1) % totalTestimonials;
+  showTestimonial(currentIndex);
+}
+
+// Initial display of the first testimonial
+showTestimonial(currentIndex);
+
+// Set interval to change testimonials every 3 seconds
+setInterval(nextTestimonial, 3000);
+
+
+//testimonial js end
+  
+
+  </script>
+    
+    
+</body>
+</html>
